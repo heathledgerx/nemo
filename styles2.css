@@ -1,0 +1,142 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    max-width: 90%;
+    /* width: 00px; */
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+nav {
+    background: linear-gradient(to right, Gold, white);
+    padding: 15px;
+    border-radius: 0 0 12px 12px;
+
+}
+
+nav p img {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 0 5px;
+    font-weight: bolder;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+nav a:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+ nav p {
+     color: rgb(0, 0, 0);
+     padding: 0px 15px;
+     display: inline-block;
+     font-weight: bolder;
+     font-size: 34px;
+ }
+
+.container p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.gallary {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.gallary img {
+    width: 100%;
+    max-width: 350px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallary video {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallary::after {
+    content: "";
+    width: 350px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px 10px 20px 10px;
+    background-color: #000000;
+    color: #ffffff;
+
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+footer a:hover {
+    color: Gold;
+}
+
+footer a img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+    vertical-align: -20%;
+}
