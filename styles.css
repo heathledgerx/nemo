@@ -15,7 +15,25 @@
      background: rgb(255, 255, 255);
      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
      border-radius: 12px;
- }
+     border: 2px solid #ddd;
+     padding: 2rem !important;
+     height: 100%;
+     transition: transform 1s;
+     -webkit-transition: transform 1s;
+     -moz-transition: transform 1s;
+     -ms-transition: transform 1s;
+     -o-transition: transform 1s;
+}
+
+ .container:hover {
+        transform: scale(1.01);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        -webkit-transform: scale(1.01);
+        -moz-transform: scale(1.01);
+        -ms-transform: scale(1.01);
+        -o-transform: scale(1.01);
+}
+
 
  nav {
      background: linear-gradient(to right, Gold, white);
@@ -119,4 +137,5 @@ footer a img {
     -moz-border-radius: 30%;
     -ms-border-radius: 30%;
     -o-border-radius: 30%;
+    vertical-align: -20%;
 }
